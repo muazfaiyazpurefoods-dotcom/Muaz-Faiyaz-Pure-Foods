@@ -1,0 +1,1040 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="google-site-verification" content="txqThYDgHPbDGTRo7jCokddUG0ULEcb5is29nDzwl0I" />
+  <title>মুয়াজ-ফাইয়াজ পিওর ফুডস | Muaz-Faiyaz Pure Foods - Shivalaya, Manikganj</title>
+  <meta name="description" content="মুয়াজ-ফাইয়াজ পিওর ফুডস (Muaz-Faiyaz Pure Foods) - শতভাগ খাঁটি ও প্রাকৃতিক খাদ্যপণ্য। ঠিকানা: Shivalaya, Manikganj, Dhaka। অর্ডার ও হোয়াটসঅ্যাপ: 01724924394" />
+  <meta name="keywords" content="Muaz-Faiyaz Pure Foods, মুয়াজ-ফাইয়াজ পিওর ফুডস, Pure Food Manikganj, Shivalaya Pure Food, খাঁটি মধু, গাওয়া ঘি, সরিষার তেল, 01724924394" />
+  <meta name="robots" content="index, follow" />
+
+  <style>
+    :root {
+      --primary: #15803d;
+      --primary-dark: #14532d;
+      --primary-light: #dcfce7;
+      --accent: #f97316;
+      --bg: #f8fafc;
+      --text: #1e293b;
+      --muted: #64748b;
+      --border: #e2e8f0;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; }
+    body { background: var(--bg); color: var(--text); }
+
+    /* Top Announcement Bar (Ghorer Bazar Style) */
+    .announcement-bar {
+      background: var(--primary-dark);
+      color: #fff;
+      font-size: 13px;
+      padding: 8px 16px;
+      text-align: center;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .announcement-bar a { color: #fde047; text-decoration: none; font-weight: 700; }
+
+    /* Main Header */
+    header {
+      background: #fff;
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.04);
+    }
+    .header-container {
+      max-width: 1280px;
+      margin: auto;
+      padding: 12px 16px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+    .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; }
+    .logo-badge {
+      width: 48px; height: 48px; border-radius: 12px;
+      background: linear-gradient(135deg, #16a34a, #14532d);
+      color: #fff; display: flex; flex-direction: column;
+      align-items: center; justify-content: center;
+      font-weight: 900; font-size: 17px; line-height: 1;
+      border: 2px solid #bbf7d0;
+    }
+    .logo-badge span { font-size: 9px; font-weight: 600; letter-spacing: 0.5px; margin-top: 2px; color: #fde047; }
+    .brand-info h1 { font-size: 19px; color: var(--primary-dark); font-weight: 800; }
+    .brand-info p { font-size: 12px; color: var(--muted); }
+
+    /* Search Bar */
+    .search-wrapper {
+      flex: 1;
+      min-width: 220px;
+      max-width: 460px;
+      display: flex;
+      border: 2px solid var(--primary);
+      border-radius: 999px;
+      overflow: hidden;
+      background: #f8fafc;
+    }
+    .search-wrapper input {
+      flex: 1; border: none; background: transparent;
+      padding: 9px 16px; font-size: 14px; outline: none;
+    }
+    .search-wrapper button {
+      background: var(--primary); color: #fff; border: none;
+      padding: 0 18px; cursor: pointer; font-weight: 700; font-size: 14px;
+    }
+
+    /* Header Action Buttons */
+    .header-icons { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+    .icon-btn {
+      padding: 8px 12px; border-radius: 8px; border: 1px solid var(--border);
+      background: #fff; color: var(--text); font-size: 13px; font-weight: 600;
+      cursor: pointer; display: inline-flex; align-items: center; gap: 5px;
+      text-decoration: none; transition: 0.2s;
+    }
+    .icon-btn:hover { background: #f1f5f9; }
+    .btn-primary { background: var(--primary); color: #fff; border-color: var(--primary); }
+    .btn-primary:hover { background: var(--primary-dark); }
+    .btn-whatsapp { background: #16a34a; color: #fff; border-color: #16a34a; }
+    .btn-admin { background: #fef3c7; border-color: #f59e0b; color: #92400e; }
+
+    /* Category Navigation Bar */
+    nav { background: var(--primary); }
+    .nav-inner { max-width: 1280px; margin: auto; padding: 0 16px; }
+    .mobile-menu-btn {
+      display: none; width: 100%; background: var(--primary-dark); color: #fff;
+      border: none; padding: 11px 14px; font-size: 14px; font-weight: 700;
+      text-align: left; cursor: pointer;
+    }
+    .menu-list { display: flex; align-items: center; gap: 2px; flex-wrap: wrap; }
+    .menu-item {
+      background: transparent; border: none; color: #fff;
+      padding: 11px 15px; font-size: 14px; font-weight: 600;
+      cursor: pointer; text-decoration: none; transition: 0.2s;
+    }
+    .menu-item:hover, .menu-item.active { background: var(--primary-dark); }
+
+    @media (max-width: 768px) {
+      .mobile-menu-btn { display: block; }
+      .menu-list { display: none; flex-direction: column; align-items: stretch; }
+      .menu-list.open { display: flex; }
+      .menu-item { text-align: left; border-top: 1px solid rgba(255,255,255,0.12); }
+    }
+
+    /* Admin Toolbar */
+    #adminToolbar {
+      display: none; background: #fffbeb; border-bottom: 2px solid #f59e0b;
+      padding: 10px 16px;
+    }
+    .admin-toolbar-inner {
+      max-width: 1280px; margin: auto; display: flex;
+      justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px;
+    }
+
+    /* Hero Banner */
+    .hero-section { max-width: 1280px; margin: 18px auto; padding: 0 16px; }
+    .hero-card {
+      background: linear-gradient(125deg, #14532d 0%, #15803d 60%, #16a34a 100%);
+      border-radius: 16px; padding: 32px 28px; color: #fff;
+      display: flex; justify-content: space-between; align-items: center;
+      flex-wrap: wrap; gap: 20px; position: relative; overflow: hidden;
+    }
+    .hero-badge {
+      display: inline-block; background: rgba(255,255,255,0.18);
+      padding: 5px 12px; border-radius: 999px; font-size: 12px;
+      font-weight: 700; margin-bottom: 10px; color: #fde047;
+    }
+    .hero-card h2 { font-size: 28px; line-height: 1.25; margin-bottom: 10px; max-width: 640px; }
+    .hero-card p { font-size: 15px; opacity: 0.95; max-width: 600px; margin-bottom: 18px; line-height: 1.5; }
+    .hero-cta { display: flex; gap: 10px; flex-wrap: wrap; }
+    .hero-trust {
+      background: rgba(255,255,255,0.12); border: 1px solid rgba(255,255,255,0.25);
+      border-radius: 12px; padding: 16px 20px; min-width: 240px;
+    }
+    .hero-trust div { font-size: 14px; margin-bottom: 8px; font-weight: 600; }
+    .hero-trust div:last-child { margin-bottom: 0; }
+
+    /* Collection Section (Ghorer Bazar Card Style) */
+    .main-container { max-width: 1280px; margin: 24px auto; padding: 0 16px; }
+    .section-header {
+      display: flex; justify-content: space-between; align-items: center;
+      margin-bottom: 18px; border-bottom: 2px solid var(--border); padding-bottom: 10px;
+    }
+    .section-header h3 { font-size: 21px; color: var(--primary-dark); font-weight: 800; }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(235px, 1fr));
+      gap: 18px;
+    }
+    .product-card {
+      background: #fff; border: 1px solid var(--border); border-radius: 12px;
+      overflow: hidden; display: flex; flex-direction: column;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .product-card:hover { transform: translateY(-3px); box-shadow: 0 10px 24px rgba(0,0,0,0.07); }
+    .prod-img-box {
+      position: relative; width: 100%; height: 200px; background: #f1f5f9;
+      display: flex; align-items: center; justify-content: center; overflow: hidden;
+    }
+    .prod-img-box img { width: 100%; height: 100%; object-fit: cover; }
+    .prod-tag {
+      position: absolute; top: 10px; left: 10px;
+      background: var(--primary); color: #fff;
+      font-size: 11px; font-weight: 700; padding: 3px 9px; border-radius: 6px;
+    }
+    .prod-body { padding: 14px; flex: 1; display: flex; flex-direction: column; text-align: center; }
+    .prod-title { font-size: 15px; font-weight: 700; color: var(--text); margin-bottom: 6px; line-height: 1.4; }
+    .prod-price { font-size: 18px; font-weight: 800; color: var(--primary); margin-bottom: 12px; }
+    .prod-btn-group { margin-top: auto; display: flex; flex-direction: column; gap: 6px; }
+    .quick-add-btn {
+      width: 100%; padding: 10px; border-radius: 8px; border: none;
+      background: var(--primary); color: #fff; font-weight: 700; font-size: 14px;
+      cursor: pointer; transition: 0.2s;
+    }
+    .quick-add-btn:hover { background: var(--primary-dark); }
+    .admin-card-actions { display: flex; gap: 6px; justify-content: center; margin-top: 4px; }
+
+    /* Payment Info Box */
+    .payment-box {
+      background: #fff; border: 1px solid var(--border); border-radius: 14px;
+      padding: 22px; margin-top: 32px;
+    }
+    .payment-cards {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 14px; margin-top: 14px;
+    }
+    .pay-item {
+      background: #f8fafc; border: 1px solid var(--border);
+      border-left: 4px solid var(--primary); border-radius: 10px; padding: 14px;
+    }
+    .pay-item h4 { color: var(--primary-dark); margin-bottom: 6px; font-size: 15px; }
+    .pay-item p { font-size: 14px; color: var(--text); line-height: 1.5; white-space: pre-line; }
+
+    /* Floating Side Cart (Ghorer Bazar Style) */
+    .side-cart-tab {
+      position: fixed; right: 0; top: 50%; transform: translateY(-50%);
+      background: var(--primary-dark); color: #fff;
+      border-radius: 12px 0 0 12px; padding: 12px 14px;
+      box-shadow: -4px 4px 16px rgba(0,0,0,0.2);
+      cursor: pointer; z-index: 180; text-align: center;
+      border: 2px solid #bbf7d0; border-right: none;
+    }
+    .side-cart-tab .items-count { font-size: 12px; font-weight: 700; color: #fde047; }
+    .side-cart-tab .items-total { font-size: 14px; font-weight: 800; margin-top: 4px; }
+
+    /* Slide-over Cart Drawer */
+    .drawer-overlay {
+      display: none; position: fixed; inset: 0;
+      background: rgba(0,0,0,0.5); z-index: 900; justify-content: flex-end;
+    }
+    .drawer-overlay.open { display: flex; }
+    .cart-drawer {
+      background: #fff; width: 100%; max-width: 440px; height: 100%;
+      overflow-y: auto; padding: 20px; display: flex; flex-direction: column;
+    }
+
+    /* Modals */
+    .modal-overlay {
+      display: none; position: fixed; inset: 0;
+      background: rgba(0,0,0,0.55); z-index: 950;
+      align-items: center; justify-content: center; padding: 16px;
+    }
+    .modal-overlay.open { display: flex; }
+    .modal-card {
+      background: #fff; border-radius: 14px; width: 100%; max-width: 500px;
+      max-height: 90vh; overflow-y: auto; padding: 20px;
+    }
+    .modal-top {
+      display: flex; justify-content: space-between; align-items: center;
+      border-bottom: 1px solid var(--border); padding-bottom: 10px; margin-bottom: 14px;
+    }
+    .close-x { background: none; border: none; font-size: 24px; cursor: pointer; line-height: 1; }
+    .field { margin-bottom: 12px; }
+    .field label { display: block; font-size: 13px; font-weight: 700; margin-bottom: 4px; }
+    .field input, .field select, .field textarea {
+      width: 100%; padding: 9px 12px; border: 1px solid #cbd5e1;
+      border-radius: 8px; font-size: 14px;
+    }
+
+    /* Footer */
+    footer { background: #0f172a; color: #cbd5e1; padding: 32px 16px; margin-top: 48px; }
+    .footer-grid {
+      max-width: 1280px; margin: auto;
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 24px;
+    }
+    footer h4 { color: #fff; margin-bottom: 10px; font-size: 16px; }
+    footer p, footer a { font-size: 14px; color: #cbd5e1; text-decoration: none; line-height: 1.7; }
+
+    @media print {
+      body * { visibility: hidden; }
+      #invoicePrintBox, #invoicePrintBox * { visibility: visible; }
+      #invoicePrintBox { position: fixed; left: 0; top: 0; width: 100%; background: #fff; padding: 20px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Bar -->
+  <div class="announcement-bar">
+    <span>📍 ঠিকানা: Shivalaya, Manikganj, Dhaka</span>
+    <span>🌿 শতভাগ খাঁটি ও প্রাকৃতিক খাদ্যপণ্যের বিশ্বস্ত প্রতিষ্ঠান</span>
+    <span>📞 WhatsApp অর্ডার: <a href="https://wa.me/8801724924394" target="_blank">01724924394</a></span>
+  </div>
+
+  <!-- Sticky Header -->
+  <header>
+    <div class="header-container">
+      <a href="#" class="brand">
+        <div class="logo-badge">MF<span>PURE</span></div>
+        <div class="brand-info">
+          <h1 id="brandTitle">মুয়াজ-ফাইয়াজ পিওর ফুডস</h1>
+          <p>Muaz-Faiyaz Pure Foods • Shivalaya, Manikganj</p>
+        </div>
+      </a>
+
+      <div class="search-wrapper">
+        <input type="text" id="searchBox" placeholder="পণ্য খুঁজুন... (Search pure foods)" oninput="renderProducts()" />
+        <button onclick="renderProducts()">খুঁজুন</button>
+      </div>
+
+      <div class="header-icons">
+        <button class="icon-btn" onclick="toggleLanguage()" id="langToggleBtn">🌐 English</button>
+        <a class="icon-btn btn-whatsapp" href="https://wa.me/8801724924394" target="_blank">💬 WhatsApp</a>
+        <button class="icon-btn btn-primary" onclick="openCartDrawer()">🛒 <span id="cartTxt">কার্ট</span> (<span id="topCartCount">0</span>)</button>
+        <button class="icon-btn btn-admin" onclick="openLoginModal()" id="adminLoginBtn">🔐 Admin</button>
+      </div>
+    </div>
+
+    <!-- Navigation Menu Bar -->
+    <nav>
+      <div class="nav-inner">
+        <button class="mobile-menu-btn" onclick="document.getElementById('navMenuList').classList.toggle('open')">☰ মেনু (Menu)</button>
+        <div class="menu-list" id="navMenuList"></div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Admin Control Toolbar -->
+  <div id="adminToolbar">
+    <div class="admin-toolbar-inner">
+      <strong>👑 অ্যাডমিন প্যানেল চালু আছে (Admin Active)</strong>
+      <div style="display:flex; gap:8px; flex-wrap:wrap;">
+        <button class="icon-btn btn-primary" onclick="openProductModal()">➕ নতুন পণ্য যোগ করুন</button>
+        <button class="icon-btn" onclick="openMenuModal()">📂 মেনু/ক্যাটাগরি এডিট</button>
+        <button class="icon-btn" onclick="openPaymentModal()">💳 পেমেন্ট তথ্য এডিট</button>
+        <button class="icon-btn" onclick="openCloudModal()">☁️ Cloud Sync (Firebase)</button>
+        <button class="icon-btn" onclick="changePassword()">🔑 পাসওয়ার্ড</button>
+        <button class="icon-btn" style="color:#dc2626;" onclick="logoutAdmin()">🚪 Logout</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Hero Banner -->
+  <section class="hero-section">
+    <div class="hero-card">
+      <div>
+        <div class="hero-badge">✅ 100% Pure & Natural Foods</div>
+        <h2 id="heroHeading">মুয়াজ-ফাইয়াজ পিওর ফুডস — খাঁটি ও নিরাপদ খাদ্যের বিশ্বস্ত ঠিকানা</h2>
+        <p id="heroSubtext">সরাসরি উৎপাদক থেকে সংগৃহীত প্রাকৃতিক মধু, গাওয়া ঘি, ঘানি ভাঙা সরিষার তেল ও ভেজালমুক্ত খাদ্যপণ্য পৌঁছে দিচ্ছি আপনার দোরগোড়ায়।</p>
+        <div class="hero-cta">
+          <a href="#allProductsSection" class="icon-btn" style="background:#facc15; color:#14532d; border:none; padding:10px 18px; font-size:14px;">🛍️ পণ্য দেখুন</a>
+          <a href="https://wa.me/8801724924394" target="_blank" class="icon-btn" style="background:#fff; color:#14532d; border:none; padding:10px 18px; font-size:14px;">📱 WhatsApp: 01724924394</a>
+        </div>
+      </div>
+      <div class="hero-trust">
+        <div>🌿 শতভাগ ভেজালমুক্ত পণ্যের গ্যারান্টি</div>
+        <div>🚚 সারা বাংলাদেশে দ্রুত হোম ডেলিভারি</div>
+        <div>💳 ক্যাশ অন ডেলিভারি, বিকাশ, নগদ ও ব্যাংক</div>
+        <div>📍 Shivalaya, Manikganj, Dhaka</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Products Collection -->
+  <main class="main-container" id="allProductsSection">
+    <div class="section-header">
+      <h3 id="collectionTitle">আমাদের পণ্যসমূহ (All Products)</h3>
+      <span id="productCounter" style="font-size:14px; color:var(--muted); font-weight:600;"></span>
+    </div>
+    <div class="product-grid" id="productGrid"></div>
+
+    <!-- Payment Information Section -->
+    <section class="payment-box" id="paymentSection">
+      <h3 style="color:var(--primary-dark); font-size:19px;">💳 পেমেন্ট মাধ্যমসমূহ (Payment Methods)</h3>
+      <p style="font-size:13px; color:var(--muted); margin-top:4px;">অর্ডার কনফার্ম করতে নিচের বিকাশ, নগদ অথবা ব্যাংক অ্যাকাউন্ট ব্যবহার করতে পারেন:</p>
+      <div class="payment-cards" id="paymentCardsGrid"></div>
+    </section>
+  </main>
+
+  <!-- Floating Side Cart Tab -->
+  <div class="side-cart-tab" onclick="openCartDrawer()">
+    <div>🛒</div>
+    <div class="items-count"><span id="sideCartCount">0</span> টি পণ্য</div>
+    <div class="items-total">৳<span id="sideCartTotal">0</span></div>
+  </div>
+
+  <!-- Footer -->
+  <footer id="contactSection">
+    <div class="footer-grid">
+      <div>
+        <h4>মুয়াজ-ফাইয়াজ পিওর ফুডস</h4>
+        <p>Muaz-Faiyaz Pure Foods — সুস্থ জীবনের জন্য খাঁটি ও প্রাকৃতিক খাদ্যপণ্য সরবরাহে প্রতিশ্রুতিবদ্ধ।</p>
+      </div>
+      <div>
+        <h4>যোগাযোগ ও ঠিকানা</h4>
+        <p>📍 ঠিকানা: Shivalaya, Manikganj, Dhaka</p>
+        <p>📞 মোবাইল ও WhatsApp: <a href="https://wa.me/8801724924394" style="color:#4ade80; font-weight:700;">01724924394</a></p>
+      </div>
+      <div>
+        <h4>দ্রুত লিংক</h4>
+        <p><a href="#allProductsSection">সকল পণ্য (All Products)</a></p>
+        <p><a href="#paymentSection">পেমেন্ট তথ্য (Payment Info)</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Slide-over Cart & Automatic Invoice Drawer -->
+  <div class="drawer-overlay" id="cartDrawerOverlay">
+    <div class="cart-drawer">
+      <div class="modal-top">
+        <h3>🛒 শপিং কার্ট ও ইনভয়েস</h3>
+        <button class="close-x" onclick="closeCartDrawer()">×</button>
+      </div>
+
+      <div id="cartItemsContainer"></div>
+      <div id="cartSummaryBox" style="background:#f1f5f9; padding:12px; border-radius:10px; margin-top:12px; font-size:14px;"></div>
+
+      <div style="margin-top:14px; border-top:1px solid var(--border); padding-top:14px;">
+        <div class="field">
+          <label>কাস্টমারের নাম (Customer Name) *</label>
+          <input type="text" id="custName" placeholder="আপনার পূর্ণ নাম লিখুন" />
+        </div>
+        <div class="field">
+          <label>মোবাইল নম্বর (Mobile Number) *</label>
+          <input type="text" id="custPhone" placeholder="017XXXXXXXX" />
+        </div>
+        <div class="field">
+          <label>ডেলিভারি ঠিকানা (Full Address) *</label>
+          <input type="text" id="custAddress" placeholder="গ্রাম/বাসা নং, থানা, জেলা" />
+        </div>
+        <div class="field">
+          <label>ডেলিভারি এরিয়া</label>
+          <select id="deliveryChargeSelect" onchange="renderCartDrawer()">
+            <option value="70">মানিকগঞ্জ / ঢাকার ভেতরে (৳৭০)</option>
+            <option value="120">সারা বাংলাদেশ / ঢাকার বাইরে (৳১২০)</option>
+          </select>
+        </div>
+        <div class="field">
+          <label>পেমেন্ট মাধ্যম</label>
+          <select id="paymentMethodSelect">
+            <option value="Cash on Delivery">ক্যাশ অন ডেলিভারি (Cash on Delivery)</option>
+            <option value="bKash">বিকাশ (bKash)</option>
+            <option value="Nagad">নগদ (Nagad)</option>
+            <option value="Bank Payment">ব্যাংক পেমেন্ট (Bank Payment)</option>
+          </select>
+        </div>
+
+        <div style="display:flex; flex-direction:column; gap:8px;">
+          <button class="icon-btn btn-primary" style="justify-content:center; padding:11px;" onclick="createAutomaticInvoice()">📄 অর্ডার কনফার্ম ও ইনভয়েস তৈরি করুন</button>
+          <button class="icon-btn btn-whatsapp" style="justify-content:center; padding:11px;" onclick="sendOrderToWhatsApp()">💬 সরাসরি WhatsApp-এ অর্ডার পাঠান</button>
+        </div>
+      </div>
+
+      <!-- Automatic Printable Invoice -->
+      <div id="invoiceWrapper" style="display:none; margin-top:18px; border-top:2px dashed #94a3b8; padding-top:14px;">
+        <div id="invoicePrintBox" style="border:1px solid #cbd5e1; border-radius:10px; padding:14px; background:#fff;">
+          <div style="display:flex; justify-content:space-between; border-bottom:2px solid var(--primary); padding-bottom:8px; margin-bottom:10px;">
+            <div>
+              <h4 style="color:var(--primary-dark); font-size:16px;">মুয়াজ-ফাইয়াজ পিওর ফুডস</h4>
+              <p style="font-size:11px;">Muaz-Faiyaz Pure Foods • Shivalaya, Manikganj, Dhaka</p>
+              <p style="font-size:11px;">WhatsApp & Mobile: 01724924394</p>
+            </div>
+            <div style="text-align:right; font-size:11px;">
+              <strong>INVOICE / রসিদ</strong><br/>
+              <span id="invoiceNumber"></span><br/>
+              <span id="invoiceDate"></span>
+            </div>
+          </div>
+          <div id="invoiceCustomerInfo" style="font-size:12px; margin-bottom:10px; line-height:1.5;"></div>
+          <div id="invoiceItemsTable"></div>
+        </div>
+        <button class="icon-btn btn-primary" style="width:100%; justify-content:center; margin-top:10px;" onclick="window.print()">🖨️ ইনভয়েস প্রিন্ট / PDF সেভ করুন</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Admin Login Modal -->
+  <div class="modal-overlay" id="loginModal">
+    <div class="modal-card" style="max-width:360px;">
+      <div class="modal-top">
+        <h3>🔐 অ্যাডমিন লগইন</h3>
+        <button class="close-x" onclick="closeModal('loginModal')">×</button>
+      </div>
+      <div class="field">
+        <label>পাসওয়ার্ড দিন (ডিফল্ট: 1234)</label>
+        <input type="password" id="adminPassField" placeholder="Password" />
+      </div>
+      <button class="icon-btn btn-primary" style="width:100%; justify-content:center;" onclick="checkAdminLogin()">লগইন করুন</button>
+    </div>
+  </div>
+
+  <!-- Editable Menu Bar Modal -->
+  <div class="modal-overlay" id="menuModal">
+    <div class="modal-card">
+      <div class="modal-top">
+        <h3>📂 মেনু বার / ক্যাটাগরি যোগ ও পরিবর্তন</h3>
+        <button class="close-x" onclick="closeModal('menuModal')">×</button>
+      </div>
+      <div class="field">
+        <label>নতুন মেনুর নাম (বাংলা)</label>
+        <input type="text" id="menuNameBn" placeholder="যেমন: খেজুর" />
+      </div>
+      <div class="field">
+        <label>New Menu Name (English)</label>
+        <input type="text" id="menuNameEn" placeholder="e.g. Dates" />
+      </div>
+      <button class="icon-btn btn-primary" style="width:100%; justify-content:center; margin-bottom:14px;" onclick="addNewMenu()">➕ মেনু যোগ করুন</button>
+      <div id="existingMenusList" style="border-top:1px solid var(--border); padding-top:10px;"></div>
+    </div>
+  </div>
+
+  <!-- Add / Edit Product Modal -->
+  <div class="modal-overlay" id="productModal">
+    <div class="modal-card">
+      <div class="modal-top">
+        <h3>➕ পণ্য যোগ / এডিট করুন</h3>
+        <button class="close-x" onclick="closeModal('productModal')">×</button>
+      </div>
+      <input type="hidden" id="editProdId" />
+      <div class="field">
+        <label>পণ্যের নাম (বাংলা)</label>
+        <input type="text" id="prodNameBn" placeholder="যেমন: সুন্দরবনের খাঁটি মধু (১ কেজি)" />
+      </div>
+      <div class="field">
+        <label>Product Name (English)</label>
+        <input type="text" id="prodNameEn" placeholder="e.g. Sundarbans Pure Honey (1kg)" />
+      </div>
+      <div class="field">
+        <label>ক্যাটাগরি (Category)</label>
+        <select id="prodCategorySelect"></select>
+      </div>
+      <div class="field">
+        <label>দাম / Price (৳)</label>
+        <input type="number" id="prodPrice" placeholder="950" />
+      </div>
+      <div class="field">
+        <label>ছবি আপলোড করুন (Upload Picture)</label>
+        <input type="file" id="prodImageFile" accept="image/*" onchange="handleImageUpload(event)" />
+        <input type="text" id="prodImageUrl" placeholder="অথবা ছবির লিংক দিন (Image URL)" style="margin-top:6px;" />
+      </div>
+      <button class="icon-btn btn-primary" style="width:100%; justify-content:center;" onclick="saveProductItem()">💾 পণ্য সেভ করুন</button>
+    </div>
+  </div>
+
+  <!-- Edit Payment Info Modal -->
+  <div class="modal-overlay" id="paymentModal">
+    <div class="modal-card">
+      <div class="modal-top">
+        <h3>💳 পেমেন্ট তথ্য আপডেট করুন</h3>
+        <button class="close-x" onclick="closeModal('paymentModal')">×</button>
+      </div>
+      <div class="field">
+        <label>বিকাশ নম্বর ও ধরন (bKash)</label>
+        <input type="text" id="bkashInput" placeholder="01724924394 (Personal)" />
+      </div>
+      <div class="field">
+        <label>নগদ নম্বর ও ধরন (Nagad)</label>
+        <input type="text" id="nagadInput" placeholder="01724924394 (Personal)" />
+      </div>
+      <div class="field">
+        <label>ব্যাংক অ্যাকাউন্ট তথ্য (Bank Details)</label>
+        <textarea id="bankInput" rows="3" placeholder="Bank Name, Account Name, Account Number, Branch"></textarea>
+      </div>
+      <button class="icon-btn btn-primary" style="width:100%; justify-content:center;" onclick="savePaymentDetails()">💾 পেমেন্ট তথ্য সেভ করুন</button>
+    </div>
+  </div>
+
+  <!-- Firebase Cloud Sync Modal -->
+  <div class="modal-overlay" id="cloudModal">
+    <div class="modal-card">
+      <div class="modal-top">
+        <h3>☁️ Firebase Live Cloud Sync</h3>
+        <button class="close-x" onclick="closeModal('cloudModal')">×</button>
+      </div>
+      <p style="font-size:13px; color:var(--muted); margin-bottom:10px;">
+        যেকোনো ডিভাইস থেকে পণ্য বা মেনু যোগ করলে সব কাস্টমারের ফোনে অটোমেটিক লাইভ আপডেট দেখানোর জন্য আপনার Firebase Realtime Database URL দিন:
+      </p>
+      <div class="field">
+        <label>Firebase Database URL</label>
+        <input type="text" id="firebaseUrlField" placeholder="https://your-project-default-rtdb.firebaseio.com" />
+      </div>
+      <button class="icon-btn btn-primary" style="width:100%; justify-content:center;" onclick="connectFirebase()">🔗 কানেক্ট ও সিঙ্ক করুন</button>
+    </div>
+  </div>
+
+  <script>
+    let currentLang = 'bn';
+    let activeCategory = 'All';
+    let isAdminLoggedIn = false;
+    let tempUploadedBase64 = '';
+
+    // Minimal starter menu bar options (User can add more anytime from Admin Panel)
+    const starterMenus = [
+      { id: 'Honey', nameBn: 'মধু', nameEn: 'Honey' },
+      { id: 'Oil & Ghee', nameBn: 'তেল ও ঘি', nameEn: 'Oil & Ghee' }
+    ];
+
+    const starterProducts = [
+      { id: 101, nameBn: 'সুন্দরবনের খাঁটি মধু (১ কেজি)', nameEn: 'Sundarbans Pure Honey (1kg)', category: 'Honey', price: 950, img: '' },
+      { id: 102, nameBn: 'খাঁটি গাওয়া ঘি (৫০০ গ্রাম)', nameEn: 'Pure Gawa Ghee (500g)', category: 'Oil & Ghee', price: 780, img: '' },
+      { id: 103, nameBn: 'ঘানি ভাঙা সরিষার তেল (১ লিটার)', nameEn: 'Cold Pressed Mustard Oil (1L)', category: 'Oil & Ghee', price: 320, img: '' }
+    ];
+
+    let menus = JSON.parse(localStorage.getItem('mf_gb_menus')) || starterMenus;
+    let products = JSON.parse(localStorage.getItem('mf_gb_products')) || starterProducts;
+    let payments = JSON.parse(localStorage.getItem('mf_gb_payments')) || {
+      bkash: '01724924394 (Personal - অ্যাডমিন থেকে পরিবর্তনযোগ্য)',
+      nagad: '01724924394 (Personal - অ্যাডমিন থেকে পরিবর্তনযোগ্য)',
+      bank: 'ব্যাংকের নাম ও অ্যাকাউন্ট নম্বর অ্যাডমিন প্যানেল থেকে যোগ করুন'
+    };
+    let cart = [];
+
+    function getPlaceholderSvg(title) {
+      const safeTitle = (title || 'Pure Food').substring(0, 22);
+      const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+        <rect width="400" height="300" fill="#dcfce7"/>
+        <circle cx="200" cy="120" r="44" fill="#15803d"/>
+        <text x="200" y="127" font-size="22" font-weight="bold" fill="#ffffff" text-anchor="middle" font-family="sans-serif">MF</text>
+        <text x="200" y="195" font-size="16" font-weight="bold" fill="#14532d" text-anchor="middle" font-family="sans-serif">${safeTitle}</text>
+        <text x="200" y="220" font-size="12" fill="#15803d" text-anchor="middle" font-family="sans-serif">Muaz-Faiyaz Pure Foods</text>
+      </svg>`;
+      return 'data:image/svg+xml;utf8,' + encodeURIComponent(svg);
+    }
+
+    function renderMenus() {
+      const container = document.getElementById('navMenuList');
+      const homeText = currentLang === 'bn' ? 'হোম (সব পণ্য)' : 'Home (All)';
+      const payText = currentLang === 'bn' ? 'পেমেন্ট তথ্য' : 'Payment Info';
+      const contactText = currentLang === 'bn' ? 'যোগাযোগ' : 'Contact';
+
+      let html = `<button class="menu-item ${activeCategory === 'All' ? 'active' : ''}" onclick="selectCategory('All')">${homeText}</button>`;
+      menus.forEach(m => {
+        const label = currentLang === 'bn' ? m.nameBn : m.nameEn;
+        html += `<button class="menu-item ${activeCategory === m.id ? 'active' : ''}" onclick="selectCategory('${m.id}')">${label}</button>`;
+      });
+      html += `<a class="menu-item" href="#paymentSection">${payText}</a>`;
+      html += `<a class="menu-item" href="#contactSection">${contactText}</a>`;
+      container.innerHTML = html;
+
+      const catSelect = document.getElementById('prodCategorySelect');
+      catSelect.innerHTML = menus.map(m => `<option value="${m.id}">${m.nameBn} (${m.nameEn})</option>`).join('');
+    }
+
+    function selectCategory(cat) {
+      activeCategory = cat;
+      document.getElementById('navMenuList').classList.remove('open');
+      renderMenus();
+      renderProducts();
+    }
+
+    function renderProducts() {
+      const grid = document.getElementById('productGrid');
+      const q = document.getElementById('searchBox').value.toLowerCase();
+      const list = products.filter(p => {
+        const matchCat = activeCategory === 'All' || p.category === activeCategory;
+        const matchQuery = (p.nameBn || '').toLowerCase().includes(q) || (p.nameEn || '').toLowerCase().includes(q);
+        return matchCat && matchQuery;
+      });
+
+      document.getElementById('productCounter').innerText = currentLang === 'bn' ? `মোট ${list.length} টি পণ্য` : `${list.length} Products`;
+
+      grid.innerHTML = list.map(p => {
+        const title = currentLang === 'bn' ? p.nameBn : p.nameEn;
+        const imgSrc = p.img && p.img.trim() !== '' ? p.img : getPlaceholderSvg(p.nameEn || p.nameBn);
+        return `
+          <div class="product-card">
+            <div class="prod-img-box">
+              <span class="prod-tag">${p.category}</span>
+              <img src="${imgSrc}" alt="${title}" onerror="this.src='${getPlaceholderSvg(p.nameEn)}'" />
+            </div>
+            <div class="prod-body">
+              <div class="prod-title">${title}</div>
+              <div class="prod-price">Tk ${p.price}.00</div>
+              <div class="prod-btn-group">
+                <button class="quick-add-btn" onclick="addItemToCart(${p.id})">
+                  ${currentLang === 'bn' ? '🛒 Quick Add (কার্টে যোগ করুন)' : '🛒 Quick Add to Cart'}
+                </button>
+                ${isAdminLoggedIn ? `
+                  <div class="admin-card-actions">
+                    <button class="icon-btn" onclick="openEditProduct(${p.id})">✏️ এডিট</button>
+                    <button class="icon-btn" style="color:#dc2626;" onclick="removeProduct(${p.id})">🗑️ মুছুন</button>
+                  </div>
+                ` : ''}
+              </div>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    function renderPayments() {
+      document.getElementById('paymentCardsGrid').innerHTML = `
+        <div class="pay-item"><h4>📱 bKash (বিকাশ)</h4><p>${payments.bkash}</p></div>
+        <div class="pay-item"><h4>📱 Nagad (নগদ)</h4><p>${payments.nagad}</p></div>
+        <div class="pay-item"><h4>🏦 Bank Payment (ব্যাংক অ্যাকাউন্ট)</h4><p>${payments.bank}</p></div>
+      `;
+    }
+
+    function toggleLanguage() {
+      currentLang = currentLang === 'bn' ? 'en' : 'bn';
+      document.getElementById('langToggleBtn').innerText = currentLang === 'bn' ? '🌐 English' : '🌐 বাংলা';
+      document.getElementById('brandTitle').innerText = currentLang === 'bn' ? 'মুয়াজ-ফাইয়াজ পিওর ফুডস' : 'Muaz-Faiyaz Pure Foods';
+      document.getElementById('heroHeading').innerText = currentLang === 'bn'
+        ? 'মুয়াজ-ফাইয়াজ পিওর ফুডস — খাঁটি ও নিরাপদ খাদ্যের বিশ্বস্ত ঠিকানা'
+        : 'Muaz-Faiyaz Pure Foods — Trusted Source for 100% Pure Foods';
+      document.getElementById('heroSubtext').innerText = currentLang === 'bn'
+        ? 'সরাসরি উৎপাদক থেকে সংগৃহীত প্রাকৃতিক মধু, গাওয়া ঘি, ঘানি ভাঙা সরিষার তেল ও ভেজালমুক্ত খাদ্যপণ্য পৌঁছে দিচ্ছি আপনার দোরগোড়ায়।'
+        : 'Directly sourced natural honey, pure gawa ghee, cold-pressed mustard oil, and unadulterated organic foods delivered to your doorstep.';
+      document.getElementById('cartTxt').innerText = currentLang === 'bn' ? 'কার্ট' : 'Cart';
+      renderMenus();
+      renderProducts();
+    }
+
+    // Cart & Invoice Logic
+    function addItemToCart(id) {
+      const prod = products.find(p => p.id === id);
+      if (!prod) return;
+      const found = cart.find(c => c.id === id);
+      if (found) found.qty++;
+      else cart.push({ ...prod, qty: 1 });
+      refreshCartCounters();
+    }
+
+    function refreshCartCounters() {
+      const count = cart.reduce((sum, item) => sum + item.qty, 0);
+      const subtotal = cart.reduce((sum, item) => sum + (item.price * item.qty), 0);
+      document.getElementById('topCartCount').innerText = count;
+      document.getElementById('sideCartCount').innerText = count;
+      document.getElementById('sideCartTotal').innerText = subtotal;
+    }
+
+    function openCartDrawer() {
+      renderCartDrawer();
+      document.getElementById('cartDrawerOverlay').classList.add('open');
+    }
+
+    function closeCartDrawer() {
+      document.getElementById('cartDrawerOverlay').classList.remove('open');
+    }
+
+    function renderCartDrawer() {
+      const box = document.getElementById('cartItemsContainer');
+      if (cart.length === 0) {
+        box.innerHTML = '<p style="text-align:center; color:#64748b; padding:18px;">আপনার কার্টে এখনো কোনো পণ্য নেই।</p>';
+        document.getElementById('cartSummaryBox').innerHTML = '';
+        return;
+      }
+      box.innerHTML = cart.map((item, idx) => `
+        <div style="display:flex; justify-content:space-between; align-items:center; padding:10px 0; border-bottom:1px solid #e2e8f0;">
+          <div>
+            <strong style="font-size:14px;">${currentLang === 'bn' ? item.nameBn : item.nameEn}</strong><br/>
+            <small style="color:#64748b;">৳${item.price} × ${item.qty} = ৳${item.price * item.qty}</small>
+          </div>
+          <div style="display:flex; gap:6px; align-items:center;">
+            <button class="icon-btn" onclick="updateCartQty(${idx}, -1)">-</button>
+            <strong>${item.qty}</strong>
+            <button class="icon-btn" onclick="updateCartQty(${idx}, 1)">+</button>
+          </div>
+        </div>
+      `).join('');
+
+      const sub = cart.reduce((s, i) => s + (i.price * i.qty), 0);
+      const del = parseInt(document.getElementById('deliveryChargeSelect').value || 70);
+      document.getElementById('cartSummaryBox').innerHTML = `
+        <div style="display:flex; justify-content:space-between; margin-bottom:4px;"><span>পণ্যের মোট দাম (Subtotal):</span><strong>৳${sub}</strong></div>
+        <div style="display:flex; justify-content:space-between; margin-bottom:6px;"><span>ডেলিভারি চার্জ (Delivery):</span><strong>৳${del}</strong></div>
+        <div style="display:flex; justify-content:space-between; border-top:1px solid #cbd5e1; padding-top:6px; font-size:16px; color:var(--primary-dark);">
+          <strong>সর্বমোট বিল (Total):</strong><strong>৳${sub + del}</strong>
+        </div>
+      `;
+    }
+
+    function updateCartQty(idx, change) {
+      cart[idx].qty += change;
+      if (cart[idx].qty <= 0) cart.splice(idx, 1);
+      refreshCartCounters();
+      renderCartDrawer();
+    }
+
+    function createAutomaticInvoice() {
+      if (cart.length === 0) return alert('আগে কার্টে পণ্য যোগ করুন!');
+      const name = document.getElementById('custName').value.trim();
+      const phone = document.getElementById('custPhone').value.trim();
+      const address = document.getElementById('custAddress').value.trim();
+      if (!name || !phone || !address) return alert('অনুগ্রহ করে আপনার নাম, মোবাইল নম্বর এবং ডেলিভারি ঠিকানা লিখুন।');
+
+      const sub = cart.reduce((s, i) => s + (i.price * i.qty), 0);
+      const del = parseInt(document.getElementById('deliveryChargeSelect').value);
+      const payMethod = document.getElementById('paymentMethodSelect').value;
+
+      document.getElementById('invoiceNumber').innerText = 'Inv #' + Math.floor(100000 + Math.random() * 900000);
+      document.getElementById('invoiceDate').innerText = 'Date: ' + new Date().toLocaleDateString();
+      document.getElementById('invoiceCustomerInfo').innerHTML = `
+        <strong>Customer:</strong> ${name} | <strong>Phone:</strong> ${phone}<br/>
+        <strong>Address:</strong> ${address} | <strong>Payment:</strong> ${payMethod}
+      `;
+      document.getElementById('invoiceItemsTable').innerHTML = `
+        <table style="width:100%; border-collapse:collapse; font-size:12px;">
+          <tr style="background:#f1f5f9;">
+            <th style="border:1px solid #cbd5e1; padding:6px; text-align:left;">পণ্য</th>
+            <th style="border:1px solid #cbd5e1; padding:6px;">পরিমাণ</th>
+            <th style="border:1px solid #cbd5e1; padding:6px; text-align:right;">মূল্য</th>
+          </tr>
+          ${cart.map(i => `
+            <tr>
+              <td style="border:1px solid #cbd5e1; padding:6px;">${i.nameBn}</td>
+              <td style="border:1px solid #cbd5e1; padding:6px; text-align:center;">${i.qty}</td>
+              <td style="border:1px solid #cbd5e1; padding:6px; text-align:right;">৳${i.price * i.qty}</td>
+            </tr>
+          `).join('')}
+          <tr>
+            <td colspan="2" style="border:1px solid #cbd5e1; padding:6px; text-align:right;">ডেলিভারি চার্জ</td>
+            <td style="border:1px solid #cbd5e1; padding:6px; text-align:right;">৳${del}</td>
+          </tr>
+          <tr>
+            <td colspan="2" style="border:1px solid #cbd5e1; padding:6px; text-align:right;"><strong>সর্বমোট (Grand Total)</strong></td>
+            <td style="border:1px solid #cbd5e1; padding:6px; text-align:right;"><strong>৳${sub + del}</strong></td>
+          </tr>
+        </table>
+      `;
+      document.getElementById('invoiceWrapper').style.display = 'block';
+    }
+
+    function sendOrderToWhatsApp() {
+      if (cart.length === 0) return alert('আগে কার্টে পণ্য যোগ করুন!');
+      const name = document.getElementById('custName').value.trim() || 'Customer';
+      const phone = document.getElementById('custPhone').value.trim() || '';
+      const address = document.getElementById('custAddress').value.trim() || '';
+      const payMethod = document.getElementById('paymentMethodSelect').value;
+      const sub = cart.reduce((s, i) => s + (i.price * i.qty), 0);
+      const del = parseInt(document.getElementById('deliveryChargeSelect').value);
+      const lines = cart.map(i => `• ${i.nameBn} (${i.qty}x) = ৳${i.price * i.qty}`).join('%0A');
+      const msg = `*নতুন অর্ডার - মুয়াজ-ফাইয়াজ পিওর ফুডস*%0Aনাম: ${name}%0Aফোন: ${phone}%0Aঠিকানা: ${address}%0Aপেমেন্ট: ${payMethod}%0A%0A*পণ্যের তালিকা:*%0A${lines}%0A%0Aডেলিভারি চার্জ: ৳${del}%0A*সর্বমোট বিল: ৳${sub + del}*`;
+      window.open(`https://wa.me/8801724924394?text=${msg}`, '_blank');
+    }
+
+    // Admin Controls
+    function openLoginModal() {
+      if (isAdminLoggedIn) return;
+      document.getElementById('loginModal').classList.add('open');
+    }
+
+    function checkAdminLogin() {
+      const savedPass = localStorage.getItem('mf_gb_pass') || '1234';
+      const entered = document.getElementById('adminPassField').value;
+      if (entered === savedPass) {
+        isAdminLoggedIn = true;
+        closeModal('loginModal');
+        document.getElementById('adminToolbar').style.display = 'block';
+        document.getElementById('adminLoginBtn').innerText = '👑 Admin Active';
+        renderProducts();
+      } else {
+        alert('ভুল পাসওয়ার্ড! ডিফল্ট পাসওয়ার্ড: 1234');
+      }
+    }
+
+    function logoutAdmin() {
+      isAdminLoggedIn = false;
+      document.getElementById('adminToolbar').style.display = 'none';
+      document.getElementById('adminLoginBtn').innerText = '🔐 Admin';
+      renderProducts();
+    }
+
+    function changePassword() {
+      const np = prompt('নতুন পাসওয়ার্ড লিখুন (কমপক্ষে ৪ অক্ষর):');
+      if (np && np.trim().length >= 4) {
+        localStorage.setItem('mf_gb_pass', np.trim());
+        alert('পাসওয়ার্ড সফলভাবে পরিবর্তিত হয়েছে!');
+      }
+    }
+
+    // Menu Bar Editor
+    function openMenuModal() {
+      renderMenuEditorList();
+      document.getElementById('menuModal').classList.add('open');
+    }
+
+    function renderMenuEditorList() {
+      document.getElementById('existingMenusList').innerHTML = menus.map((m, i) => `
+        <div style="display:flex; justify-content:space-between; align-items:center; padding:8px 0; border-bottom:1px solid #e2e8f0;">
+          <span><strong>${m.nameBn}</strong> (${m.nameEn})</span>
+          <button class="icon-btn" style="color:#dc2626;" onclick="deleteMenu(${i})">🗑️ মুছুন</button>
+        </div>
+      `).join('');
+    }
+
+    function addNewMenu() {
+      const bn = document.getElementById('menuNameBn').value.trim();
+      const en = document.getElementById('menuNameEn').value.trim() || bn;
+      if (!bn) return alert('মেনুর নাম লিখুন!');
+      menus.push({ id: en, nameBn: bn, nameEn: en });
+      document.getElementById('menuNameBn').value = '';
+      document.getElementById('menuNameEn').value = '';
+      syncStoreData();
+      renderMenus();
+      renderMenuEditorList();
+    }
+
+    function deleteMenu(idx) {
+      if (!confirm('মেনু অপশনটি মুছে ফেলতে চান?')) return;
+      menus.splice(idx, 1);
+      syncStoreData();
+      renderMenus();
+      renderMenuEditorList();
+    }
+
+    // Product Editor
+    function handleImageUpload(e) {
+      const file = e.target.files[0];
+      if (!file) return;
+      const reader = new FileReader();
+      reader.onload = () => { tempUploadedBase64 = reader.result; };
+      reader.readAsDataURL(file);
+    }
+
+    function openProductModal() {
+      renderMenus();
+      document.getElementById('editProdId').value = '';
+      document.getElementById('prodNameBn').value = '';
+      document.getElementById('prodNameEn').value = '';
+      document.getElementById('prodPrice').value = '';
+      document.getElementById('prodImageUrl').value = '';
+      tempUploadedBase64 = '';
+      document.getElementById('productModal').classList.add('open');
+    }
+
+    function openEditProduct(id) {
+      renderMenus();
+      const p = products.find(item => item.id === id);
+      document.getElementById('editProdId').value = p.id;
+      document.getElementById('prodNameBn').value = p.nameBn;
+      document.getElementById('prodNameEn').value = p.nameEn;
+      document.getElementById('prodCategorySelect').value = p.category;
+      document.getElementById('prodPrice').value = p.price;
+      document.getElementById('prodImageUrl').value = p.img || '';
+      tempUploadedBase64 = '';
+      document.getElementById('productModal').classList.add('open');
+    }
+
+    function saveProductItem() {
+      const id = document.getElementById('editProdId').value;
+      const nameBn = document.getElementById('prodNameBn').value.trim();
+      const nameEn = document.getElementById('prodNameEn').value.trim() || nameBn;
+      const category = document.getElementById('prodCategorySelect').value;
+      const price = parseFloat(document.getElementById('prodPrice').value);
+      const img = tempUploadedBase64 || document.getElementById('prodImageUrl').value.trim();
+
+      if (!nameBn || !price) return alert('পণ্যের নাম এবং দাম দিন!');
+
+      if (id) {
+        const index = products.findIndex(p => p.id == id);
+        products[index] = { id: Number(id), nameBn, nameEn, category, price, img };
+      } else {
+        products.push({ id: Date.now(), nameBn, nameEn, category, price, img });
+      }
+      syncStoreData();
+      closeModal('productModal');
+      renderProducts();
+    }
+
+    function removeProduct(id) {
+      if (!confirm('পণ্যটি মুছে ফেলতে চান?')) return;
+      products = products.filter(p => p.id !== id);
+      syncStoreData();
+      renderProducts();
+    }
+
+    // Payment Editor
+    function openPaymentModal() {
+      document.getElementById('bkashInput').value = payments.bkash;
+      document.getElementById('nagadInput').value = payments.nagad;
+      document.getElementById('bankInput').value = payments.bank;
+      document.getElementById('paymentModal').classList.add('open');
+    }
+
+    function savePaymentDetails() {
+      payments = {
+        bkash: document.getElementById('bkashInput').value.trim(),
+        nagad: document.getElementById('nagadInput').value.trim(),
+        bank: document.getElementById('bankInput').value.trim()
+      };
+      syncStoreData();
+      closeModal('paymentModal');
+      renderPayments();
+    }
+
+    // Firebase Cloud Sync
+    function openCloudModal() {
+      document.getElementById('firebaseUrlField').value = localStorage.getItem('mf_gb_firebase') || '';
+      document.getElementById('cloudModal').classList.add('open');
+    }
+
+    async function connectFirebase() {
+      const url = document.getElementById('firebaseUrlField').value.trim().replace(/\/$/, '');
+      localStorage.setItem('mf_gb_firebase', url);
+      await syncStoreData();
+      closeModal('cloudModal');
+      alert('Firebase Cloud Sync সফলভাবে যুক্ত হয়েছে!');
+    }
+
+    async function syncStoreData() {
+      localStorage.setItem('mf_gb_menus', JSON.stringify(menus));
+      localStorage.setItem('mf_gb_products', JSON.stringify(products));
+      localStorage.setItem('mf_gb_payments', JSON.stringify(payments));
+      const fbUrl = localStorage.getItem('mf_gb_firebase');
+      if (fbUrl) {
+        try {
+          await fetch(`${fbUrl}/ghorerBazarStyleStore.json`, {
+            method: 'PUT',
+            body: JSON.stringify({ menus, products, payments })
+          });
+        } catch (err) { console.error(err); }
+      }
+    }
+
+    async function fetchCloudStoreData() {
+      const fbUrl = localStorage.getItem('mf_gb_firebase');
+      if (!fbUrl) return;
+      try {
+        const res = await fetch(`${fbUrl}/ghorerBazarStyleStore.json`);
+        const data = await res.json();
+        if (data && data.products) {
+          menus = data.menus || menus;
+          products = data.products;
+          payments = data.payments || payments;
+          localStorage.setItem('mf_gb_menus', JSON.stringify(menus));
+          localStorage.setItem('mf_gb_products', JSON.stringify(products));
+          localStorage.setItem('mf_gb_payments', JSON.stringify(payments));
+          renderMenus();
+          renderProducts();
+          renderPayments();
+        }
+      } catch (err) { console.error(err); }
+    }
+
+    function closeModal(id) { document.getElementById(id).classList.remove('open'); }
+
+    renderMenus();
+    renderProducts();
+    renderPayments();
+    fetchCloudStoreData();
+  </script>
+</body>
+</html>
